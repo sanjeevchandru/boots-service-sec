@@ -1,0 +1,90 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.title-row p{
+    font-size: 14px;
+}
+.underline{
+    height: 4px;
+}
+.icon i{
+    padding: 20px;
+    background-color:#f5f5f5
+
+}
+.card-1 .icon i{
+    color:#47aeff ;
+}
+.card-2 .icon i{
+    color: #ffa76e;
+}
+.card-3 .icon i{
+    color:#e80368 ;
+}
+.card-4 .icon i{
+    color:#ffbb2c ;
+}
+.card-5 .icon i{
+    color:#ff5828 ;
+}
+.card-6 .icon i{
+    color: #11dbcf;
+}
+.card-1,.card-2,.card-3,.card-4,.card-5,.card-6{
+    padding: 70px 20px;
+    box-shadow: 0 0 50px #f8f5f5;
+}
+.card-1:hover .icon>i{
+    color: #fff;
+    background-color: #47aeff;
+    transition: all 0.5s ease;
+}
+.card-1:hover,.card-2:hover,.card-3:hover,.card-4:hover,.card-5:hover,.card-6:hover{
+    box-shadow: 0 0 30px #dfdede;
+    transition: all 0.5s ease;
+}
+
+.card-2:hover .icon>i{
+    color: #fff;
+    background-color: #ffa76e;
+    transition: all 0.5s ease;
+}
+
+
+.card-3:hover .icon>i{
+    color: #fff;
+    background-color: #e80368 ;
+    transition: all 0.5s ease;
+}
+
+
+.card-4:hover .icon>i{
+    color: #fff;
+    background-color: #ffbb2c ;
+    transition: all 0.5s ease;
+}
+
+
+.card-5:hover .icon>i{
+    color: #fff;
+    background-color: #ff5828 ;
+    transition: all 0.5s ease;
+}
+
+
+.card-6:hover .icon>i{
+    color: #fff;
+    background-color: #11dbcf ;
+    transition: all 0.5s ease;
+}
+
+/* call to action */
+#call-act-section{
+    background-color: #414c64;
+}
+.call-act:hover{
+    background-color: #f8c008;
+    transition: all 0.5s ease;
+}
